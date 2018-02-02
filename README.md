@@ -1,8 +1,3 @@
-#include <stdio.h>
-#include <math.h>
-
-int main()
-{
     float  x, y, z, max, a, b, p, q;
     printf("If the function is of the form f(x) = p*(x^a) - q*(x^b) then enter a and b \n");
     scanf("%f", &a);
@@ -23,6 +18,4 @@ int main()
         x += 0.01;
     }
     printf("The function is maximum at x = %f and the maximum value is %f \n", z, max);
-
     return 0;
-}
